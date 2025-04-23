@@ -1,9 +1,95 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="zz0lllWzb_OTtEPJqG5l">
-    <mxGraphModel>
+    <mxGraphModel dx="2066" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-1" value="MSC_OPERATION" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="120" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zRxqtt3lngDXsNZoxAeD-1">
+          <mxGeometry x="55" y="80" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zRxqtt3lngDXsNZoxAeD-1">
+          <mxGeometry x="55" y="350" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-4" value="HOTEL_CSG" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="120" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zRxqtt3lngDXsNZoxAeD-4">
+          <mxGeometry x="55" y="110" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zRxqtt3lngDXsNZoxAeD-4">
+          <mxGeometry x="55" y="160" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zRxqtt3lngDXsNZoxAeD-4">
+          <mxGeometry x="55" y="210" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-8" value="SpecialFundsPaymentQueryServiceBaseImpl#queryAdvancePayDetailInfo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zRxqtt3lngDXsNZoxAeD-4">
+          <mxGeometry x="70" y="120" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-9" value="SpecialFundsPaymentQueryServiceBaseImpl#assembleApPaymentAmountModel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zRxqtt3lngDXsNZoxAeD-4">
+          <mxGeometry x="70" y="170" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-10" value="AbstractSpecialFundsPaymentApplyService#queryApAmount" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zRxqtt3lngDXsNZoxAeD-4">
+          <mxGeometry x="70" y="218" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zRxqtt3lngDXsNZoxAeD-4">
+          <mxGeometry x="55" y="260" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zRxqtt3lngDXsNZoxAeD-4">
+          <mxGeometry x="55" y="310" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-13" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="120" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-14" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="90" y="190" as="sourcePoint" />
+            <mxPoint x="180" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-15" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="zRxqtt3lngDXsNZoxAeD-14">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-16" value="请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zRxqtt3lngDXsNZoxAeD-14">
+          <mxGeometry x="-0.8667" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="zRxqtt3lngDXsNZoxAeD-2" target="zRxqtt3lngDXsNZoxAeD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-18" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="zRxqtt3lngDXsNZoxAeD-13" target="zRxqtt3lngDXsNZoxAeD-2">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="280" y="210" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="205" />
+              <mxPoint x="270" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-19" value="查询msc_virtual_account_info，获取 vaid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="390" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-20" value="根据 vaid 查询 msc_virtual_account_info_extend，获取 settle_turning_point" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="745" y="445" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="zRxqtt3lngDXsNZoxAeD-12" target="zRxqtt3lngDXsNZoxAeD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="zRxqtt3lngDXsNZoxAeD-3" target="zRxqtt3lngDXsNZoxAeD-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="515" />
+              <mxPoint x="260" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zRxqtt3lngDXsNZoxAeD-23" value="展示" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="500" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
