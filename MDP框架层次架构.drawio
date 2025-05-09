@@ -61,13 +61,13 @@
         <mxCell id="9WPtRMABWArLWFUFdW_Y-13" value="消息" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="590" y="200" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9WPtRMABWArLWFUFdW_Y-14" value="DB" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="9WPtRMABWArLWFUFdW_Y-14" value="DB" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="360" y="920" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9WPtRMABWArLWFUFdW_Y-15" value="Search" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+        <mxCell id="9WPtRMABWArLWFUFdW_Y-15" value="Search" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="475" y="920" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9WPtRMABWArLWFUFdW_Y-16" value="RPC" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+        <mxCell id="9WPtRMABWArLWFUFdW_Y-16" value="RPC" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="590" y="920" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
